@@ -18,9 +18,11 @@ const NavBar = () => {
         <img src="/gradient.png" alt="Gradient Background" />
       </div>
 
-      <nav className="w-full px-5 lg:px-8 xl:px-[8%] py-4 flex justify-between items-center z-50">
+      <nav className="w-11/12 mx-auto px-5  py-4 flex justify-between items-center z-50">
         <a href="">
-          <h4>Rahul</h4>
+          <h4 className="font-bold text-3xl">
+            Rahul<span className="text-red-600">.</span>{" "}
+          </h4>
         </a>
         <ul className="hidden md:flex px-12 rounded-full font-Ovo py-4 gap-6 lg:gap-8 bg-white bg-opacity-50 shadow-sm">
           <li>
