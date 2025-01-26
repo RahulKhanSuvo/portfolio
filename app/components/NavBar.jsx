@@ -21,7 +21,8 @@ const NavBar = () => {
       <nav className="w-11/12 mx-auto   py-4 flex justify-between items-center z-50">
         <a href="">
           <h4 className="font-bold text-3xl">
-            Rahul<span className="text-red-600">.</span>{" "}
+            <span className="text-[#EC1552]">&lt;</span> Rahul
+            <span className="text-[#EC1552]">/&gt;</span>
           </h4>
         </a>
         <ul className="hidden md:flex px-12 rounded-full font-Ovo py-4 gap-6 lg:gap-8 bg-white bg-opacity-50 shadow-sm">
